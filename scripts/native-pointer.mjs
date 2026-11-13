@@ -1,0 +1,1 @@
+export default async ({frame})=>frame.evaluate(()=>{const p=window.__ANTVR.world.input.xr.multiPointers.right;return {active:p.activeKind,states:p.pointerStates,policy:p.rayPolicy,rayKeys:Object.keys(p.ray),rayEnabled:p.ray.pointer?.enabled,rayIntersect:p.ray.pointer?.getIntersection?.()?.object?.name,ray:p.ray.constructor.name};});

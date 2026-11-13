@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "holder": "left",
+  "position": [
+    -0.09925861656665802,
+    1.4501939862966537,
+    -0.44941534847021103
+  ],
+  "home": [
+    -0.33000001311302185,
+    1.4100000113248825,
+    -0.7599999830126762
+  ],
+  "snapshot": {
+    "step": "kit",
+    "stepIndex": 1,
+    "action": "take-profile",
+    "actionIndex": 2,
+    "instruction": "Pick up your Paper Profile.",
+    "running": true,
+    "paused": false,
+    "finished": false,
+    "elapsed": 0,
+    "stepElapsed": 0,
+    "idle": 0,
+    "assist": false,
+    "overBudget": false,
+    "debugJumped": true,
+    "state": {
+      "name": "Noor",
+      "tokens": [],
+      "visibility": "public",
+      "kitOpen": true,
+      "mapTaken": true,
+      "profileTaken": false,
+      "atBlob": false,
+      "submitted": false,
+      "pageTurned": false,
+      "requestAccepted": false,
+      "symbolPoints": [],
+      "symbolPosted": false,
+      "networkReached": false,
+      "visited": [
+        "intro",
+        "kit"
+      ]
+    },
+    "timings": [],
+    "completionReason": null,
+    "performance": {
+      "fps": 25,
+      "calls": 47,
+      "triangles": 23680,
+      "textures": 22,
+      "geometries": 29
+    },
+    "peakPerformance": {
+      "calls": 55,
+      "triangles": 24496,
+      "textures": 22
+    },
+    "xr": true
+  }
+}

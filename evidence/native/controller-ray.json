@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "method": "Native IWER controller ray + trigger",
+  "snapshot": {
+    "step": "kit",
+    "stepIndex": 1,
+    "action": "open-kit",
+    "actionIndex": 0,
+    "instruction": "Lift the lid of your Blackout Communication Kit.",
+    "running": true,
+    "paused": false,
+    "finished": false,
+    "elapsed": 0,
+    "stepElapsed": 0,
+    "idle": 0,
+    "assist": false,
+    "overBudget": false,
+    "debugJumped": false,
+    "state": {
+      "name": "Noor",
+      "tokens": [],
+      "visibility": "public",
+      "kitOpen": false,
+      "mapTaken": false,
+      "profileTaken": false,
+      "atBlob": false,
+      "submitted": false,
+      "pageTurned": false,
+      "requestAccepted": false,
+      "symbolPoints": [],
+      "symbolPosted": false,
+      "networkReached": false,
+      "visited": [
+        "intro",
+        "kit"
+      ]
+    },
+    "timings": [
+      {
+        "id": "intro",
+        "name": "Welcome",
+        "budget": 20,
+        "seconds": 0,
+        "reason": "action",
+        "assistedActions": 0
+      }
+    ],
+    "completionReason": null,
+    "performance": {
+      "fps": 27,
+      "calls": 43,
+      "triangles": 23752,
+      "textures": 15,
+      "geometries": 21
+    },
+    "peakPerformance": {
+      "calls": 47,
+      "triangles": 24560,
+      "textures": 19
+    },
+    "xr": true
+  }
+}

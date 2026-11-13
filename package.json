@@ -1,0 +1,46 @@
+{
+  "name": "ant-vr",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "iwsdk dev restart --no-open --foreground",
+    "dev:runtime": "vite",
+    "dev:down": "iwsdk dev down",
+    "dev:status": "iwsdk dev status",
+    "reference:status": "iwsdk reference status",
+    "reference:warmup": "iwsdk reference warmup",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit && eslint src --max-warnings 0",
+    "lint": "eslint src --max-warnings 0",
+    "test": "tsx --test src/logic.test.ts",
+    "test:smoke": "iwsdk browser run scripts/emulator-smoke.mjs"
+  },
+  "dependencies": {
+    "@iwsdk/core": "1.1.0-rc.2",
+    "@pmndrs/uikit": "1.0.74",
+    "@pmndrs/uikit-horizon": "1.0.74",
+    "@pmndrs/uikit-lucide": "1.0.74",
+    "three": "npm:super-three@0.185.0"
+  },
+  "devDependencies": {
+    "@iwsdk/cli": "1.1.0-rc.2",
+    "@iwsdk/vite-plugin-dev": "1.1.0-rc.2",
+    "@types/node": "24.10.1",
+    "@types/three": "0.185.0",
+    "eslint": "9.39.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.46.4",
+    "vite": "7.1.4"
+  },
+  "overrides": {
+    "sharp": "0.35.4",
+    "three": "npm:super-three@0.185.0"
+  },
+  "engines": {
+    "node": ">=20.19.0 <21.0.0-0 || >=22.12.0 <23.0.0-0 || >=24.0.0"
+  }
+}

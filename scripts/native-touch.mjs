@@ -1,0 +1,1 @@
+export default async ({frame})=>frame.evaluate(()=>{const p=window.__ANTVR.world.input.xr.multiPointers.right;return {states:[...p.pointerStates],touch:p.touch.pointer?.getIntersection?.()?{object:p.touch.pointer.getIntersection().object.name,distance:p.touch.pointer.getIntersection().distance}:null,ray:p.ray.pointer?.getIntersection?.()?.object?.name};});

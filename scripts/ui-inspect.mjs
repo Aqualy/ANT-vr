@@ -1,0 +1,1 @@
+export default async ({frame}) => ({dom:await frame.evaluate(()=>[...document.body.children].map(e=>({tag:e.tagName,id:e.id,cls:e.className,shadow:!!e.shadowRoot}))),snapshot:await frame.evaluate(()=>window.__ANTVR?.snapshot())});

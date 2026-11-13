@@ -1,0 +1,1044 @@
+{
+  "kind": "active-IWER-session-application-smoke",
+  "generatedAt": "2026-11-13T06:51:04.224Z",
+  "inputScope": "Application action API; physical controller and hand paths are verified separately.",
+  "final": {
+    "step": "outro",
+    "stepIndex": 8,
+    "action": null,
+    "actionIndex": 1,
+    "instruction": "Get to know your neighbours before you need them.",
+    "running": false,
+    "paused": false,
+    "finished": true,
+    "elapsed": 13.146299999999345,
+    "stepElapsed": 1.3698999999999049,
+    "idle": 0,
+    "assist": false,
+    "overBudget": false,
+    "debugJumped": false,
+    "state": {
+      "name": "Noor",
+      "tokens": [
+        "gardening",
+        "music"
+      ],
+      "visibility": "private",
+      "kitOpen": true,
+      "mapTaken": true,
+      "profileTaken": true,
+      "atBlob": true,
+      "submitted": true,
+      "pageTurned": true,
+      "requestAccepted": true,
+      "symbolPoints": [
+        [
+          0.5,
+          0.85
+        ],
+        [
+          0.5,
+          0.42
+        ],
+        [
+          0.27,
+          0.25
+        ],
+        [
+          0.22,
+          0.4
+        ],
+        [
+          0.5,
+          0.58
+        ],
+        [
+          0.77,
+          0.36
+        ],
+        [
+          0.78,
+          0.2
+        ],
+        [
+          0.55,
+          0.3
+        ]
+      ],
+      "symbolPosted": true,
+      "networkReached": true,
+      "visited": [
+        "intro",
+        "kit",
+        "profile",
+        "blob",
+        "public",
+        "private",
+        "symbols",
+        "further",
+        "outro"
+      ]
+    },
+    "timings": [
+      {
+        "id": "intro",
+        "name": "Welcome",
+        "budget": 20,
+        "seconds": 0.6913000000002795,
+        "reason": "action",
+        "assistedActions": 0
+      },
+      {
+        "id": "kit",
+        "name": "Open the kit",
+        "budget": 40,
+        "seconds": 1.4352000000001857,
+        "reason": "action",
+        "assistedActions": 0
+      },
+      {
+        "id": "profile",
+        "name": "Your Paper Profile",
+        "budget": 50,
+        "seconds": 1.563999999999533,
+        "reason": "action",
+        "assistedActions": 0
+      },
+      {
+        "id": "blob",
+        "name": "Visit the Blob",
+        "budget": 50,
+        "seconds": 1.4681000000000926,
+        "reason": "action",
+        "assistedActions": 0
+      },
+      {
+        "id": "public",
+        "name": "Find a shared interest",
+        "budget": 25,
+        "seconds": 1.2017000000001865,
+        "reason": "action",
+        "assistedActions": 0
+      },
+      {
+        "id": "private",
+        "name": "You decide",
+        "budget": 20,
+        "seconds": 1.214099999999627,
+        "reason": "action",
+        "assistedActions": 0
+      },
+      {
+        "id": "symbols",
+        "name": "Leave your mark",
+        "budget": 40,
+        "seconds": 1.201999999999534,
+        "reason": "action",
+        "assistedActions": 0
+      },
+      {
+        "id": "further",
+        "name": "Blobs reach further",
+        "budget": 25,
+        "seconds": 3,
+        "reason": "automatic",
+        "assistedActions": 0
+      },
+      {
+        "id": "outro",
+        "name": "You are part of ANT",
+        "budget": 20,
+        "seconds": 1.3698999999999049,
+        "reason": "action",
+        "assistedActions": 0
+      }
+    ],
+    "completionReason": "action",
+    "performance": {
+      "fps": 60,
+      "calls": 93,
+      "triangles": 28840,
+      "textures": 26,
+      "geometries": 48
+    },
+    "peakPerformance": {
+      "calls": 93,
+      "triangles": 28840,
+      "textures": 26
+    },
+    "xr": true
+  },
+  "samples": [
+    {
+      "step": "intro",
+      "stepIndex": 0,
+      "action": "begin",
+      "actionIndex": 0,
+      "instruction": "Settle in. Touch the green tag to begin.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 0.6597000000001864,
+      "stepElapsed": 0.6597000000001864,
+      "idle": 0.6597000000001864,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [],
+        "visibility": "public",
+        "kitOpen": false,
+        "mapTaken": false,
+        "profileTaken": false,
+        "atBlob": false,
+        "submitted": false,
+        "pageTurned": false,
+        "requestAccepted": false,
+        "symbolPoints": [],
+        "symbolPosted": false,
+        "networkReached": false,
+        "visited": [
+          "intro"
+        ]
+      },
+      "timings": [],
+      "completionReason": null,
+      "performance": {
+        "fps": 47,
+        "calls": 69,
+        "triangles": 28102,
+        "textures": 20,
+        "geometries": 36
+      },
+      "peakPerformance": {
+        "calls": 69,
+        "triangles": 28102,
+        "textures": 20
+      },
+      "xr": true
+    },
+    {
+      "step": "kit",
+      "stepIndex": 1,
+      "action": "open-kit",
+      "actionIndex": 0,
+      "instruction": "Lift the lid of your Blackout Communication Kit.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 1.5924999999999985,
+      "stepElapsed": 0.9011999999997204,
+      "idle": 0.9011999999997204,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [],
+        "visibility": "public",
+        "kitOpen": false,
+        "mapTaken": false,
+        "profileTaken": false,
+        "atBlob": false,
+        "submitted": false,
+        "pageTurned": false,
+        "requestAccepted": false,
+        "symbolPoints": [],
+        "symbolPosted": false,
+        "networkReached": false,
+        "visited": [
+          "intro",
+          "kit"
+        ]
+      },
+      "timings": [
+        {
+          "id": "intro",
+          "name": "Welcome",
+          "budget": 20,
+          "seconds": 0.6913000000002795,
+          "reason": "action",
+          "assistedActions": 0
+        }
+      ],
+      "completionReason": null,
+      "performance": {
+        "fps": 60,
+        "calls": 57,
+        "triangles": 26552,
+        "textures": 16,
+        "geometries": 30
+      },
+      "peakPerformance": {
+        "calls": 69,
+        "triangles": 28102,
+        "textures": 20
+      },
+      "xr": true
+    },
+    {
+      "step": "profile",
+      "stepIndex": 2,
+      "action": "token-one",
+      "actionIndex": 0,
+      "instruction": "Stick an interest token into the first circle.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 3.108900000000372,
+      "stepElapsed": 0.9823999999999063,
+      "idle": 0.9823999999999063,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [],
+        "visibility": "public",
+        "kitOpen": true,
+        "mapTaken": true,
+        "profileTaken": true,
+        "atBlob": false,
+        "submitted": false,
+        "pageTurned": false,
+        "requestAccepted": false,
+        "symbolPoints": [],
+        "symbolPosted": false,
+        "networkReached": false,
+        "visited": [
+          "intro",
+          "kit",
+          "profile"
+        ]
+      },
+      "timings": [
+        {
+          "id": "intro",
+          "name": "Welcome",
+          "budget": 20,
+          "seconds": 0.6913000000002795,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "kit",
+          "name": "Open the kit",
+          "budget": 40,
+          "seconds": 1.4352000000001857,
+          "reason": "action",
+          "assistedActions": 0
+        }
+      ],
+      "completionReason": null,
+      "performance": {
+        "fps": 62,
+        "calls": 63,
+        "triangles": 27316,
+        "textures": 25,
+        "geometries": 33
+      },
+      "peakPerformance": {
+        "calls": 69,
+        "triangles": 28102,
+        "textures": 25
+      },
+      "xr": true
+    },
+    {
+      "step": "blob",
+      "stepIndex": 3,
+      "action": "enter-blob",
+      "actionIndex": 0,
+      "instruction": "Touch the Blob to meet its volunteer operators.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 4.5911000000000906,
+      "stepElapsed": 0.9006000000000931,
+      "idle": 0.9006000000000931,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [
+          "gardening",
+          "music"
+        ],
+        "visibility": "public",
+        "kitOpen": true,
+        "mapTaken": true,
+        "profileTaken": true,
+        "atBlob": false,
+        "submitted": false,
+        "pageTurned": false,
+        "requestAccepted": false,
+        "symbolPoints": [],
+        "symbolPosted": false,
+        "networkReached": false,
+        "visited": [
+          "intro",
+          "kit",
+          "profile",
+          "blob"
+        ]
+      },
+      "timings": [
+        {
+          "id": "intro",
+          "name": "Welcome",
+          "budget": 20,
+          "seconds": 0.6913000000002795,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "kit",
+          "name": "Open the kit",
+          "budget": 40,
+          "seconds": 1.4352000000001857,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "profile",
+          "name": "Your Paper Profile",
+          "budget": 50,
+          "seconds": 1.563999999999533,
+          "reason": "action",
+          "assistedActions": 0
+        }
+      ],
+      "completionReason": null,
+      "performance": {
+        "fps": 60,
+        "calls": 69,
+        "triangles": 28102,
+        "textures": 20,
+        "geometries": 36
+      },
+      "peakPerformance": {
+        "calls": 69,
+        "triangles": 28102,
+        "textures": 25
+      },
+      "xr": true
+    },
+    {
+      "step": "public",
+      "stepIndex": 4,
+      "action": "turn-page",
+      "actionIndex": 0,
+      "instruction": "Turn the page. Find a shared interest.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 6.0579999999999945,
+      "stepElapsed": 0.8993999999999067,
+      "idle": 0.8993999999999067,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [
+          "gardening",
+          "music"
+        ],
+        "visibility": "private",
+        "kitOpen": true,
+        "mapTaken": true,
+        "profileTaken": true,
+        "atBlob": true,
+        "submitted": true,
+        "pageTurned": false,
+        "requestAccepted": false,
+        "symbolPoints": [],
+        "symbolPosted": false,
+        "networkReached": false,
+        "visited": [
+          "intro",
+          "kit",
+          "profile",
+          "blob",
+          "public"
+        ]
+      },
+      "timings": [
+        {
+          "id": "intro",
+          "name": "Welcome",
+          "budget": 20,
+          "seconds": 0.6913000000002795,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "kit",
+          "name": "Open the kit",
+          "budget": 40,
+          "seconds": 1.4352000000001857,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "profile",
+          "name": "Your Paper Profile",
+          "budget": 50,
+          "seconds": 1.563999999999533,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "blob",
+          "name": "Visit the Blob",
+          "budget": 50,
+          "seconds": 1.4681000000000926,
+          "reason": "action",
+          "assistedActions": 0
+        }
+      ],
+      "completionReason": null,
+      "performance": {
+        "fps": 46,
+        "calls": 49,
+        "triangles": 26544,
+        "textures": 18,
+        "geometries": 26
+      },
+      "peakPerformance": {
+        "calls": 75,
+        "triangles": 28102,
+        "textures": 25
+      },
+      "xr": true
+    },
+    {
+      "step": "private",
+      "stepIndex": 5,
+      "action": "accept-request",
+      "actionIndex": 0,
+      "instruction": "A neighbour asks to read more. Accept their request.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 7.260100000000087,
+      "stepElapsed": 0.8997999999998135,
+      "idle": 0.8997999999998135,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [
+          "gardening",
+          "music"
+        ],
+        "visibility": "private",
+        "kitOpen": true,
+        "mapTaken": true,
+        "profileTaken": true,
+        "atBlob": true,
+        "submitted": true,
+        "pageTurned": true,
+        "requestAccepted": false,
+        "symbolPoints": [],
+        "symbolPosted": false,
+        "networkReached": false,
+        "visited": [
+          "intro",
+          "kit",
+          "profile",
+          "blob",
+          "public",
+          "private"
+        ]
+      },
+      "timings": [
+        {
+          "id": "intro",
+          "name": "Welcome",
+          "budget": 20,
+          "seconds": 0.6913000000002795,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "kit",
+          "name": "Open the kit",
+          "budget": 40,
+          "seconds": 1.4352000000001857,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "profile",
+          "name": "Your Paper Profile",
+          "budget": 50,
+          "seconds": 1.563999999999533,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "blob",
+          "name": "Visit the Blob",
+          "budget": 50,
+          "seconds": 1.4681000000000926,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "public",
+          "name": "Find a shared interest",
+          "budget": 25,
+          "seconds": 1.2017000000001865,
+          "reason": "action",
+          "assistedActions": 0
+        }
+      ],
+      "completionReason": null,
+      "performance": {
+        "fps": 62,
+        "calls": 49,
+        "triangles": 26800,
+        "textures": 18,
+        "geometries": 26
+      },
+      "peakPerformance": {
+        "calls": 75,
+        "triangles": 28102,
+        "textures": 25
+      },
+      "xr": true
+    },
+    {
+      "step": "symbols",
+      "stepIndex": 6,
+      "action": "draw-symbol",
+      "actionIndex": 0,
+      "instruction": "Draw a symbol for the neighbourhood garden.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 8.475699999999712,
+      "stepElapsed": 0.9012999999998139,
+      "idle": 0.9012999999998139,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [
+          "gardening",
+          "music"
+        ],
+        "visibility": "private",
+        "kitOpen": true,
+        "mapTaken": true,
+        "profileTaken": true,
+        "atBlob": true,
+        "submitted": true,
+        "pageTurned": true,
+        "requestAccepted": true,
+        "symbolPoints": [],
+        "symbolPosted": false,
+        "networkReached": false,
+        "visited": [
+          "intro",
+          "kit",
+          "profile",
+          "blob",
+          "public",
+          "private",
+          "symbols"
+        ]
+      },
+      "timings": [
+        {
+          "id": "intro",
+          "name": "Welcome",
+          "budget": 20,
+          "seconds": 0.6913000000002795,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "kit",
+          "name": "Open the kit",
+          "budget": 40,
+          "seconds": 1.4352000000001857,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "profile",
+          "name": "Your Paper Profile",
+          "budget": 50,
+          "seconds": 1.563999999999533,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "blob",
+          "name": "Visit the Blob",
+          "budget": 50,
+          "seconds": 1.4681000000000926,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "public",
+          "name": "Find a shared interest",
+          "budget": 25,
+          "seconds": 1.2017000000001865,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "private",
+          "name": "You decide",
+          "budget": 20,
+          "seconds": 1.214099999999627,
+          "reason": "action",
+          "assistedActions": 0
+        }
+      ],
+      "completionReason": null,
+      "performance": {
+        "fps": 39,
+        "calls": 49,
+        "triangles": 26692,
+        "textures": 17,
+        "geometries": 26
+      },
+      "peakPerformance": {
+        "calls": 75,
+        "triangles": 28102,
+        "textures": 25
+      },
+      "xr": true
+    },
+    {
+      "step": "further",
+      "stepIndex": 7,
+      "action": "watch-network",
+      "actionIndex": 0,
+      "instruction": "Profile copies connect Blobs. With electricity, light carries data.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 8.801399999999434,
+      "stepElapsed": 0.025,
+      "idle": 0.025,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [
+          "gardening",
+          "music"
+        ],
+        "visibility": "private",
+        "kitOpen": true,
+        "mapTaken": true,
+        "profileTaken": true,
+        "atBlob": true,
+        "submitted": true,
+        "pageTurned": true,
+        "requestAccepted": true,
+        "symbolPoints": [
+          [
+            0.5,
+            0.85
+          ],
+          [
+            0.5,
+            0.42
+          ],
+          [
+            0.27,
+            0.25
+          ],
+          [
+            0.22,
+            0.4
+          ],
+          [
+            0.5,
+            0.58
+          ],
+          [
+            0.77,
+            0.36
+          ],
+          [
+            0.78,
+            0.2
+          ],
+          [
+            0.55,
+            0.3
+          ]
+        ],
+        "symbolPosted": true,
+        "networkReached": false,
+        "visited": [
+          "intro",
+          "kit",
+          "profile",
+          "blob",
+          "public",
+          "private",
+          "symbols",
+          "further"
+        ]
+      },
+      "timings": [
+        {
+          "id": "intro",
+          "name": "Welcome",
+          "budget": 20,
+          "seconds": 0.6913000000002795,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "kit",
+          "name": "Open the kit",
+          "budget": 40,
+          "seconds": 1.4352000000001857,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "profile",
+          "name": "Your Paper Profile",
+          "budget": 50,
+          "seconds": 1.563999999999533,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "blob",
+          "name": "Visit the Blob",
+          "budget": 50,
+          "seconds": 1.4681000000000926,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "public",
+          "name": "Find a shared interest",
+          "budget": 25,
+          "seconds": 1.2017000000001865,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "private",
+          "name": "You decide",
+          "budget": 20,
+          "seconds": 1.214099999999627,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "symbols",
+          "name": "Leave your mark",
+          "budget": 40,
+          "seconds": 1.201999999999534,
+          "reason": "action",
+          "assistedActions": 0
+        }
+      ],
+      "completionReason": null,
+      "performance": {
+        "fps": 51,
+        "calls": 49,
+        "triangles": 26692,
+        "textures": 17,
+        "geometries": 26
+      },
+      "peakPerformance": {
+        "calls": 75,
+        "triangles": 28102,
+        "textures": 25
+      },
+      "xr": true
+    },
+    {
+      "step": "outro",
+      "stepIndex": 8,
+      "action": "done",
+      "actionIndex": 0,
+      "instruction": "People, places and paper. Your neighbourhood is connected.",
+      "running": true,
+      "paused": false,
+      "finished": false,
+      "elapsed": 13.095599999999623,
+      "stepElapsed": 1.3192000000001842,
+      "idle": 1.3192000000001842,
+      "assist": false,
+      "overBudget": false,
+      "debugJumped": false,
+      "state": {
+        "name": "Noor",
+        "tokens": [
+          "gardening",
+          "music"
+        ],
+        "visibility": "private",
+        "kitOpen": true,
+        "mapTaken": true,
+        "profileTaken": true,
+        "atBlob": true,
+        "submitted": true,
+        "pageTurned": true,
+        "requestAccepted": true,
+        "symbolPoints": [
+          [
+            0.5,
+            0.85
+          ],
+          [
+            0.5,
+            0.42
+          ],
+          [
+            0.27,
+            0.25
+          ],
+          [
+            0.22,
+            0.4
+          ],
+          [
+            0.5,
+            0.58
+          ],
+          [
+            0.77,
+            0.36
+          ],
+          [
+            0.78,
+            0.2
+          ],
+          [
+            0.55,
+            0.3
+          ]
+        ],
+        "symbolPosted": true,
+        "networkReached": true,
+        "visited": [
+          "intro",
+          "kit",
+          "profile",
+          "blob",
+          "public",
+          "private",
+          "symbols",
+          "further",
+          "outro"
+        ]
+      },
+      "timings": [
+        {
+          "id": "intro",
+          "name": "Welcome",
+          "budget": 20,
+          "seconds": 0.6913000000002795,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "kit",
+          "name": "Open the kit",
+          "budget": 40,
+          "seconds": 1.4352000000001857,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "profile",
+          "name": "Your Paper Profile",
+          "budget": 50,
+          "seconds": 1.563999999999533,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "blob",
+          "name": "Visit the Blob",
+          "budget": 50,
+          "seconds": 1.4681000000000926,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "public",
+          "name": "Find a shared interest",
+          "budget": 25,
+          "seconds": 1.2017000000001865,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "private",
+          "name": "You decide",
+          "budget": 20,
+          "seconds": 1.214099999999627,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "symbols",
+          "name": "Leave your mark",
+          "budget": 40,
+          "seconds": 1.201999999999534,
+          "reason": "action",
+          "assistedActions": 0
+        },
+        {
+          "id": "further",
+          "name": "Blobs reach further",
+          "budget": 25,
+          "seconds": 3,
+          "reason": "automatic",
+          "assistedActions": 0
+        }
+      ],
+      "completionReason": null,
+      "performance": {
+        "fps": 60,
+        "calls": 93,
+        "triangles": 28840,
+        "textures": 26,
+        "geometries": 48
+      },
+      "peakPerformance": {
+        "calls": 93,
+        "triangles": 28840,
+        "textures": 26
+      },
+      "xr": true
+    }
+  ],
+  "shots": [
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\01-intro.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\02-kit.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\03-profile.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\04-blob.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\05-public.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\06-private.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\06b-private-open.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\07-symbols.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\08-further.png",
+    "C:\\school\\sem5\\IML\\ANT_website_agent_files_v2\\ant-vr\\evidence\\smoke\\09-outro.png"
+  ],
+  "errors": [],
+  "resetAndSkipPassed": true
+}

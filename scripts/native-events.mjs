@@ -1,0 +1,2 @@
+export default async ({frame})=>frame.evaluate(()=>({events:window.__ANTEvents,snapshot:window.__ANTVR.snapshot(),systems:Array.from(window.__ANTVR.world.systems).map(s=>({name:s.constructor.name,paused:s.isPaused,queries:Object.keys(s.queries??{})})),ancestry:(()=>{let o=window.__ANTVR.world.scene.getObjectByName('Primary action');const a=[];while(o){a.push({name:o.name,visible:o.visible,pointerEvents:o.pointerEvents,pointerEventsType:o.pointerEventsType});o=o.parent;}return a;})()}));
+
